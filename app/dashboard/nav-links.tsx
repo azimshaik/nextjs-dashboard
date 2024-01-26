@@ -1,4 +1,5 @@
 'use client';
+
 import {
     UserGroupIcon,
     HomeIcon,
@@ -14,7 +15,7 @@ import {
     const pathname = usePathname();
     return (
       <>
-        {Link.map((link) => {
+        {links.map((link) => {
           const LinkIcon = link.icon;
           return (
             <Link
